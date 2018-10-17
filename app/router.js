@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('github-repos');
+  this.route('reddit');
+  this.route('github-org');
 });
 
 export default Router;
